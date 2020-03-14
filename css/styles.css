@@ -1,0 +1,37 @@
+/* https://www.youtube.com/watch?v=5PzWwyVB2-c&feature=youtu.be */
+
+.nav-hover {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.nav-hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+/* end */
+
+.push-up {
+    margin-top: 8px;
+}
+
+.none {
+    display: inline !important;
+}
+
