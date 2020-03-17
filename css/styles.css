@@ -7,8 +7,10 @@
 
 .nav-hover::before {
     content: "";
+    margin: auto;
     position: absolute;
-    width: 100%;
+    right: 0;
+    width: 75%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
@@ -27,11 +29,13 @@
 
 /* end */
 
-.push-up {
-    margin-top: 8px;
+.nav-link-custom {
+    display: block;
+    color: black;
+    padding: 0.125rem 1rem;
 }
 
-.none {
-    display: inline !important;
+.nav-link-custom:hover, .nav-link-custom:focus {
+    text-decoration: none;
+    color: black;
 }
-
