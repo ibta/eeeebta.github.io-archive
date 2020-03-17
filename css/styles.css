@@ -40,6 +40,16 @@
     color: black;
 }
 
+.icon-link {
+    color: black;
+    padding: 0.5rem 0.75rem;
+}
+
+.icon-link:hover, .icon-link:focus {
+    text-decoration: none;
+    color: black;
+}
+
 
 html {
     position: relative;
