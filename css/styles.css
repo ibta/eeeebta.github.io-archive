@@ -1,6 +1,8 @@
 /* https://www.youtube.com/watch?v=5PzWwyVB2-c&feature=youtu.be */
 
 .nav-hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     display: inline-block;
     position: relative;
 }
@@ -38,7 +40,6 @@
 .nav-link-custom:hover, .nav-link-custom:focus {
     text-decoration: none;
     color: black;
-<<<<<<< HEAD
 }
 
 .icon-link {
@@ -51,31 +52,19 @@
     color: black;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-  }
-body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
-}
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-=======
+.brand-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-.icon-link {
-    color: black;
-    padding: 0.5rem 0.75rem;
->>>>>>> 4a3715c93fe58938220ada5c90affeb1a8422918
+.text-body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
-.icon-link:hover, .icon-link:focus {
-    text-decoration: none;
-    color: black;
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -86,6 +75,7 @@ html {
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
+
 .footer {
     position: absolute;
     bottom: 0;
