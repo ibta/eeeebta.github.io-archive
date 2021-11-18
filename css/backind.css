@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(-45deg, #1d7909,#00d4ff, #4d0979, #79095b, #796a09);
+    background-size: 400% 400% !important;
+    animation: gradient 15s ease infinite !important;
+    height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.center-body {
+    position: fixed;
+    top: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
